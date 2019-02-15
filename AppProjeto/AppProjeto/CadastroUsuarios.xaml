@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProjeto.CadastroUsuarios">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="ic_launcher.png"/>
+
+            <Label Text="CADASTRO DE USUÁRIOS"
+        HorizontalTextAlignment="Center"/>
+
+            <Entry Text="NOME COMPLETO"
+        HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
+
+            <Entry Text="DIGITE SEU E-MAIL"
+        HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
+
+            <Entry Text="DIGITE SUA SENHA"
+        HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
+
+            <Entry Text="DIGITE NOVAMENTE SUA SENHA"
+        HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text ="CADASTRAR"
+            x:Name="buttonCadastrar"
+                Clicked="ButtonCadastrar_Clicked"
+                HorizontalOptions="FillAndExpand"/>
+
+                <Button Text ="CANCELAR"
+            x:Name="buttonCancelar"
+                Clicked="ButtonCancelar_Clicked"
+                HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

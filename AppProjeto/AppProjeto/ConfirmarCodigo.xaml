@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProjeto.ConfirmarCodigo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="ic_launcher.png"/>
+
+            <Label Text="CONFIRMAÇÃO DE CÓDIGO"
+        HorizontalTextAlignment="Center"/>
+
+            <Entry Text="CÓDIGO"
+        HorizontalTextAlignment="Center" Margin="30,150,30,10"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text ="CONFIRMAR CÓDIGO"
+                x:Name="buttonConfirmar"
+                Clicked="ButtonConfirmar_Clicked"
+                HorizontalOptions="FillAndExpand"/>
+
+                <Button Text ="CANCELAR"
+            x:Name="buttonCancelar"
+                Clicked="ButtonCancelar_Clicked"
+                HorizontalOptions="FillAndExpand"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppProjeto.RecuperarSenha">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="ic_launcher.png"/>
+
+            <Label Text="RECUPERAÇÃO DE SENHA"
+        HorizontalTextAlignment="Center"/>
+
+            <Entry Text="TELEFONE"
+        HorizontalTextAlignment="Center" Margin="30,150,30,10"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text ="ENVIAR CÓDIGO"
+                x:Name="buttonEnviarCodigo"
+                Clicked="ButtonEnviarCodigo_Clicked"
+                HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
