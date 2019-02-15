@@ -24,7 +24,7 @@
                 <Button Text ="CANCELAR"
             x:Name="buttonCancelar"
                 Clicked="ButtonCancelar_Clicked"
-                HorizontalOptions="FillAndExpand"/>
+                HorizontalOptions="FillAndExpand" />
                 
             </StackLayout>
         </StackLayout>
