@@ -12,7 +12,7 @@
             <Entry Text="NOME COMPLETO"
         HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
 
-            <Entry Text="DIGITE SEU E-MAIL"
+            <Entry Text="DIGITE SEU USUÁRIO"
         HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
 
             <Entry Text="DIGITE SUA SENHA"

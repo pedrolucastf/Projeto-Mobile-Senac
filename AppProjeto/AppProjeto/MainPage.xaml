@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AppProjeto"
-             x:Class="AppProjeto.MainPage">
+             x:Class="AppProjeto.MainPage"
+             BackgroundColor="#9AAABF">
 
     <StackLayout>
         <Image Source="ic_launcher.png"/>
@@ -10,10 +11,11 @@
         <Label Text="COMPRA CERTA"
         HorizontalTextAlignment="Center"/>
 
-        <Entry Text="DIGITE SEU E-MAIL"
+        <Entry Placeholder="DIGITE SEU USUÁRIO" x:Name="entryLogin"
         HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
 
-        <Entry Text="DIGITE SUA SENHA"
+        <Entry Placeholder="DIGITE SUA SENHA" x:Name="entrySenha"
+               IsPassword="True"
         HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
 
         <StackLayout Orientation="Horizontal">
@@ -22,10 +24,6 @@
                 Clicked="ButtonEntrar_Clicked"
                     HorizontalOptions="FillAndExpand"/>
 
-            <Button Text ="Cancelar"
-            x:Name="buttonCancelar"
-                Clicked="ButtonCancelar_Clicked"
-                HorizontalOptions="FillAndExpand"/>
         </StackLayout>
         
         <StackLayout Orientation="Horizontal">
@@ -34,6 +32,8 @@
                 Clicked="ButtonNovoUsuario_Clicked"
                 HorizontalOptions="FillAndExpand"/>
 
+        </StackLayout>
+        <StackLayout>
             <Button Text ="Esqueci minha senha"
             x:Name="buttonEsqueciSenha"
                 Clicked="ButtonEsqueciSenha_Clicked"
