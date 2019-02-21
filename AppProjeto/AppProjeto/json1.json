@@ -1,0 +1,101 @@
+{
+  "id": "MLU451985560",
+  "site_id": "MLU",
+    "título": "Pc Gamer Amd Elite 8GB Ddr4 1tb 2GB Radeon Pcgamer-uy",
+  "vendedor": 
+  {
+    "id": 182677900,
+    "power_seller_status": "platina",
+    "car_dealer": "falso",
+    "real_estate_agency": "falso",
+    "tags": 
+    []
+  },
+  "price": 15890,
+  "currency_id": "UYU",
+  "available_quantity ": 1,
+  " sold_quantity ": 500,
+  " buying_mode ": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "stop_time": "2038-11-15T14: 43: 53.000Z",
+  "condição": "novo",
+  "permalink": "https://articulo.mercadolibre.com.uy/MLU-451985560-pc-gamer-amd-elite-8gb-ddr4-1tb-2gb-radeon-pcgamer-uy-_JM ",
+  " miniatura ": " http://mlu-s1-p.mlstatic.com/808488-MLU27033357159_032018-I.jpg ",
+  " accept_mercadopago ": true,
+  " parcelas ": 
+  {
+    "quantity": 18,
+    "amount": 882.78,
+    "rate": 0,
+    "currency_id": "UYU"
+  },
+  "address": 
+  {
+    "state_id": "UY-MO",
+    "state_name": "Montevidéu",
+    "city_id": "TUxVQ09UUjk3MDY",
+    "city_name": "Otras"
+  },
+  "envio": 
+  {
+    "free_shipping": "falso",
+    "mode": "not_specified",
+    "tags": 
+    [],
+    "logistic_type": "not_specified",
+    "store_pick_up": "falso"
+  },
+  "seller_address": 
+  {
+    "id": "",
+    "comment": "",
+    "address_line": "",
+    "zip_code": "",
+    "país": 
+    {
+      "id": "UY",
+      "name": "Uruguay"
+    },
+    "state": 
+    {
+      "id": "UY-MO",
+      "nome": "Montevideo"
+    },
+    "cidade": 
+    {
+      "id": "TUxVQ09UUjk3MDY",
+      "nome": "Otras"
+    },
+    "latitude": "",
+    "longitude": ""
+  },
+  "atributos": 
+  [
+    {
+      "value_struct": null,
+      "attribute_group_id": "OUTROS",
+      "attribute_group_name": "Otros",
+      "fonte": 1,
+      "id": "ITEM_CONDITION",
+      "nome": "Condição do artigo",
+      "valor_id": "2230284",
+      "value_name": "Nuevo"
+    }
+  ],
+  "original_price": null,
+  "category_id": "MLU3137",
+  "official_store_id": null,
+  "catalog_product_id": null,
+  "reviews": 
+  {
+    "rating_average": 4.6,
+    "total": 7
+  },
+  "tags": 
+  [
+    "dragged_bids_and_visits",
+    "good_quality_picture",
+    "good_quality_thumbnail",
+    "immediate_payment"
+  ]
+}

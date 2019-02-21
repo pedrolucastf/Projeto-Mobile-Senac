@@ -9,10 +9,10 @@
             <Label Text="NOVA SENHA"
         HorizontalTextAlignment="Center"/>
 
-            <Entry Text="DIGITE SUA NOVA SENHA"
+            <Entry Placeholder="DIGITE SUA NOVA SENHA"
         HorizontalTextAlignment="Center" Margin="30,150,30,10"/>
            
-            <Entry Text="DIGITE NOVAMENTE SUA SENHA"
+            <Entry Placeholder="DIGITE NOVAMENTE SUA SENHA"
         HorizontalTextAlignment="Center" Margin="30,10,30,10"/>
 
             <StackLayout Orientation="Horizontal">
