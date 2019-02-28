@@ -10,10 +10,12 @@
         HorizontalTextAlignment="Center"/>
 
             <Entry Placeholder="DIGITE SUA NOVA SENHA"
-        HorizontalTextAlignment="Center" Margin="30,150,30,10"/>
+        HorizontalTextAlignment="Center" Margin="30,150,30,10"
+                   IsPassword="True"/>
            
             <Entry Placeholder="DIGITE NOVAMENTE SUA SENHA"
-        HorizontalTextAlignment="Center" Margin="30,10,30,10"/>
+        HorizontalTextAlignment="Center" Margin="30,10,30,10"
+                   IsPassword="True"/>
 
             <StackLayout Orientation="Horizontal">
                 <Button Text ="SALVAR SENHA"
@@ -21,11 +23,6 @@
                 Clicked="ButtonSalvarSenha_Clicked"
                 HorizontalOptions="FillAndExpand"/>
 
-                <Button Text ="CANCELAR"
-            x:Name="buttonCancelar"
-                Clicked="ButtonCancelar_Clicked"
-                HorizontalOptions="FillAndExpand" />
-                
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

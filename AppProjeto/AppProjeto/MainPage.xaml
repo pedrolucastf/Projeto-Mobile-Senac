@@ -3,20 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AppProjeto"
              x:Class="AppProjeto.MainPage"
-             BackgroundColor="#9AAABF">
+             BackgroundColor="#8C8C8C">
 
     <StackLayout>
         <Image Source="ic_launcher.png"/>
 
         <Label Text="COMPRA CERTA"
-        HorizontalTextAlignment="Center"/>
+        HorizontalTextAlignment="Center"
+               TextColor="White"/>
 
         <Entry Placeholder="DIGITE SEU USUÁRIO" x:Name="entryLogin"
-        HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
+        HorizontalTextAlignment="Center" Margin="30,25,30,30"
+               TextColor="White"/>
 
         <Entry Placeholder="DIGITE SUA SENHA" x:Name="entrySenha"
                IsPassword="True"
-        HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
+        HorizontalTextAlignment="Center" Margin="30,25,30,30"
+               TextColor="White"/>
 
         <StackLayout Orientation="Horizontal">
             <Button Text ="Entrar"

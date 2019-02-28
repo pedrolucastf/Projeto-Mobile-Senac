@@ -23,17 +23,5 @@ namespace AppProjeto
             Detail.Navigation.PushAsync(new Computador());
             IsPresented = false;
         }
-
-        private void ViewCell_Tapped_1(object sender, EventArgs e)
-        {
-            Detail.Navigation.PushAsync(new Notebook());
-            IsPresented = false;
-        }
-
-        private void ViewCell_Tapped_2(object sender, EventArgs e)
-        {
-            Detail.Navigation.PushAsync(new TV());
-            IsPresented = false;
-        }
     }
 }

@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppProjeto.Notebook">
+             x:Class="AppProjeto.Computador">
     <ContentPage.Content>
         <StackLayout>
             <Image Source="ic_launcher.png"/>
 
-            <Label Text="NOTEBOOK"
+            <Label Text="HISTÓRICO"
         HorizontalTextAlignment="Center"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

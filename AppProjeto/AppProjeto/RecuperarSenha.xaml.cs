@@ -17,9 +17,10 @@ namespace AppProjeto
 			InitializeComponent ();
 		}
 
-        private void ButtonEnviarCodigo_Clicked(object sender, EventArgs e)
+        private async void ButtonEnviarCodigo_Clicked(object sender, EventArgs e)
         {
-
+            var confirmarcodigo = new ConfirmarCodigo();
+            await Navigation.PushModalAsync(confirmarcodigo);
         }
     }
 }

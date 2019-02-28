@@ -5,11 +5,11 @@ using System.Text;
 namespace AppProjeto
 {
 
-    public class Rootobject
+    public class PC
     {
         public string id { get; set; }
         public string site_id { get; set; }
-        public string título { get; set; }
+        public string titulo { get; set; }
         public Vendedor vendedor { get; set; }
         public int price { get; set; }
         public string currency_id { get; set; }
@@ -18,7 +18,7 @@ namespace AppProjeto
         public string buying_mode { get; set; }
         public string listing_type_id { get; set; }
         public string stop_time { get; set; }
-        public string condição { get; set; }
+        public string condicao { get; set; }
         public string permalink { get; set; }
         public string miniatura { get; set; }
         public bool accept_mercadopago { get; set; }

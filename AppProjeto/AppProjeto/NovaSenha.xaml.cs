@@ -17,14 +17,10 @@ namespace AppProjeto
 			InitializeComponent ();
 		}
 
-        private void ButtonSalvarSenha_Clicked(object sender, EventArgs e)
+        private async void ButtonSalvarSenha_Clicked(object sender, EventArgs e)
         {
-
-        }
-
-        private void ButtonCancelar_Clicked(object sender, EventArgs e)
-        {
-
+            var senha = new MainPage();
+            await Navigation.PushModalAsync(senha);
         }
     }
 }

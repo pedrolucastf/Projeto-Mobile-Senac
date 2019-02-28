@@ -17,14 +17,16 @@ namespace AppProjeto
 			InitializeComponent ();
 		}
 
-        private void ButtonConfirmar_Clicked(object sender, EventArgs e)
+        private async void ButtonConfirmar_Clicked(object sender, EventArgs e)
         {
-
+            var novasenha = new NovaSenha();
+            await Navigation.PushModalAsync(novasenha);
         }
 
-        private void ButtonCancelar_Clicked(object sender, EventArgs e)
+        private async void ButtonCancelar_Clicked(object sender, EventArgs e)
         {
-
+            var retornarlogin = new MainPage();
+            await Navigation.PushModalAsync(retornarlogin);
         }
     }
 }

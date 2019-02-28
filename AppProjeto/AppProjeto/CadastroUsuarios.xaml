@@ -9,17 +9,19 @@
             <Label Text="CADASTRO DE USUÁRIOS"
         HorizontalTextAlignment="Center"/>
 
-            <Entry Text="NOME COMPLETO"
+            <Entry Placeholder="NOME COMPLETO" x:Name="entryNome"
         HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
 
-            <Entry Text="DIGITE SEU USUÁRIO"
+            <Entry Placeholder="DIGITE SEU USUÁRIO" x:Name="entryUsuario"
         HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
 
-            <Entry Text="DIGITE SUA SENHA"
-        HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
+            <Entry Placeholder="DIGITE SUA SENHA" x:Name="entrySenha1"
+        HorizontalTextAlignment="Center" Margin="30,25,30,30"
+                   IsPassword="True"/>
 
-            <Entry Text="DIGITE NOVAMENTE SUA SENHA"
-        HorizontalTextAlignment="Center" Margin="30,25,30,30"/>
+            <Entry Placeholder="DIGITE NOVAMENTE SUA SENHA" x:Name="entrySenha2"
+        HorizontalTextAlignment="Center" Margin="30,25,30,30"
+                   IsPassword="True"/>
 
             <StackLayout Orientation="Horizontal">
                 <Button Text ="CADASTRAR"
@@ -27,10 +29,6 @@
                 Clicked="ButtonCadastrar_Clicked"
                 HorizontalOptions="FillAndExpand"/>
 
-                <Button Text ="CANCELAR"
-            x:Name="buttonCancelar"
-                Clicked="ButtonCancelar_Clicked"
-                HorizontalOptions="FillAndExpand"/>
             </StackLayout>
 
 

@@ -11,29 +11,27 @@ using Xamarin.Forms.Xaml;
 
 namespace AppProjeto
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class TelaInicio : ContentPage
-	{
-		public TelaInicio ()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Computador : ContentPage
+    {
+        public Computador()
+        {
+            InitializeComponent();
 
             var pc = BuscaTodosComputadores();
 
-            //StackLayout sl = new StackLayout();
-            //sl.Orientation = StackOrientation.Vertical;
+            StackLayout sl = new StackLayout();
+            sl.Orientation = StackOrientation.Vertical;
+            for (var i = 0; i <= 50; i++)
+            {
 
+                var label = new Label();
+                label.Text = "teste" + i;
+                sl.Children.Add(label);
 
-            //for (var i = 0; i<=50; i++)
-            //{
-                
-            //    var label = new Label();
-            //    label.Text = "teste"+i;
-            //    sl.Children.Add(label);
-                
-            //}
+            }
 
-            //Content = new ScrollView() { Content = sl };
+            Content = new ScrollView() { Content = sl };
 
 
         }
